@@ -10,7 +10,7 @@ class RoutesManager {
     case Routes.IntroPage:
     return MaterialPageRoute(builder: (_) => IntroPage());
       case Routes.AppareilPage:
-        return MaterialPageRoute(builder: (_) => AppareilPage());
+        return MaterialPageRoute(builder: (_) => ListeAppareilPage());
         default:
         return MaterialPageRoute(builder: (_) => IntroPage());
     }
