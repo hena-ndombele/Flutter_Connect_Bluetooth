@@ -1,3 +1,5 @@
+import 'package:app_bluetooth/pages/AppareilPage.dart';
+import 'package:app_bluetooth/utils/Routes.dart';
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
@@ -38,14 +40,17 @@ class _IntroPageState extends State<IntroPage> {
                   width: 600,
                 )),
           ],
-          onDone: () {},
+          onDone: () {
+            Navigator.pushReplacement(context,
+                MaterialPageRoute(builder: (context) => ListeAppareilPage()));
+          },
           next: const Icon(
             Icons.arrow_forward,
             color: ColorPages.COLOR_PRINCIPALE,
           ),
           done: Container(
             child: Text(
-              "Bluetooth",
+              "Appareils",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 18,

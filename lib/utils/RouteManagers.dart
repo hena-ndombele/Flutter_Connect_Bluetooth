@@ -1,6 +1,7 @@
 import 'package:app_bluetooth/pages/IntroPage.dart';
 import 'package:flutter/material.dart';
 
+import '../pages/AppareilPage.dart';
 import 'Routes.dart';
 
 class RoutesManager {
@@ -8,9 +9,9 @@ class RoutesManager {
     switch (r.name) {
     case Routes.IntroPage:
     return MaterialPageRoute(builder: (_) => IntroPage());
-
-
-      default:
+      case Routes.AppareilPage:
+        return MaterialPageRoute(builder: (_) => AppareilPage());
+        default:
         return MaterialPageRoute(builder: (_) => IntroPage());
     }
   }
