@@ -30,8 +30,8 @@ class _IntroPageState extends State<IntroPage> {
                       fontSize: 25,
                       color: ColorPages.COLOR_PRINCIPALE,
                       fontFamily: 'Schyler'
-                      // color: Color.fromRGBO(158, 79, 194, 0)
-                      ),
+                    // color: Color.fromRGBO(158, 79, 194, 0)
+                  ),
                 ),
                 body: "Rechecher des appareils à proximité...",
                 image: Image.asset(
