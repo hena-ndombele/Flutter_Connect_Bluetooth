@@ -3,7 +3,7 @@
 A new Flutter project.
 
 ## Getting Started
-![lii](https://github.com/hena-ndombele/Flutter_Connect_Bluetooth/assets/96916810/48377e2b-0d4c-491f-b077-04870f74b408)
+
 
 This project is a starting point for a Flutter application.
 
